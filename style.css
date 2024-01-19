@@ -1,0 +1,70 @@
+body {
+    background-image: url('background.jpg');
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 13.5px; /* Reduced padding by 15% */
+    max-width: 576px; /* Reduced max-width by 20% */
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 1.8px 3.6px rgba(0, 0, 0, 0.1); /* Reduced box-shadow by 15% */
+    height: 85%; /* Reduced height by 15% */
+}
+
+h1 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 1.8em; /* Reduced font-size by 15% */
+    color: #12ac12;
+    height: 85%; /* Reduced height by 15% */
+    background-color: transparent;
+    border-radius: 0;
+    padding: 7.65px; /* Reduced padding by 15% */
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 7.65px; /* Reduced padding by 15% */
+    border: 1px solid #ddd;
+    border-radius: 4.5px; /* Reduced border-radius by 15% */
+    font-size: 0.93em; /* Reduced font-size by 15% */
+    box-sizing: border-box;
+    margin-bottom: 4.05px; /* Reduced margin-bottom by 15% */
+    height: 28.05px; /* Reduced height by 15% */
+    align-self: center;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: 28.05px; /* Reduced height by 15% */
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 0.93em; /* Reduced font-size by 15% */
+    padding: 7.65px; /* Reduced padding by 15% */
+    box-sizing: border-box;
+    text-align: left;
+    align-self: flex-start;
+    margin-bottom: 4.05px; /* Reduced margin-bottom by 15% */
+}
+
+button[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    padding: 7.65px 15.3px; /* Reduced padding by 15% */
+    border: none;
+    border-radius: 4.5px; /* Reduced border-radius by 15% */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 34.25px; /* Reduced height by 15% */
+    width: 153px; /* Reduced width by 15% */
+}
+
+button[type="submit"]:hover {
+    background-color: #1b9b54;
+}
